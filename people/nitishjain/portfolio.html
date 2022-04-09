@@ -7,10 +7,15 @@
     <link rel="stylesheet" href="../assests/style/style.css">
  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.2.1/css/lightgallery.min.css"/>
-
+ <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/0.6.0/fastclick.js"></script>
+ <script src="../assests/script/jquery.fullpage.js"></script>
     <title>Nitish Jain | Portfolio</title>
 </head>
 <body>
+
+    <div class="id" id="fullpage">
+
     
     <section class="container">
         <div class="section">
@@ -165,6 +170,10 @@
                                <div class="gallery_img" href="../assests/projects/img/turkish/t5.jpg">
                                 <img src="../assests/projects/img/turkish/t5.jpg" alt="">
                                </div>
+
+                               <div class="gallery_img" href="../assests/projects/img/turkish/t5.jpg">
+                                <img src="../assests/projects/img/turkish/t5.jpg" alt="">
+                               </div>
                            
                                
                            </div>
@@ -183,18 +192,21 @@
                     </div>
                </div>
              
-
-             
-                
-
             </div>
         </div>
     
     </section>
+    
+</div>
+
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.2.1/lightgallery.min.js"></script>
 
+  <script>
+    //   FastClick.attach(document.body);
+    //   $('#fullpage').fullpage();
+  </script>
     <script>
         lightGallery(document.querySelector('.gallery'), {
           download: false,
